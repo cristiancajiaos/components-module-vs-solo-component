@@ -1,3 +1,4 @@
+import { FourModule } from './shared/numbers/four/four.module';
 import { NumbersModule } from './shared/numbers/numbers.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -14,7 +15,8 @@ import { LayoutComponent } from './layout/layout.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NumbersModule
+    NumbersModule,
+    FourModule
   ],
   providers: [],
   bootstrap: [AppComponent]
